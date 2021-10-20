@@ -1,0 +1,39 @@
+form{
+    border: solid 1px white;
+    width: 250%;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid rgb(231, 221, 221);
+    border-radius: 12px;
+}
+
+h3{
+    position: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+    font-family: 'Barlow Condensed', sans-serif;
+  
+
+}
+
+h4{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.fondo{
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 18px; 
+font-weight: 400; 
+text-align: center; 
+background: #94959746; 
+margin: 0 0 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #dfe1e460;
+}

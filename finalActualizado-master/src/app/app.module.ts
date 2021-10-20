@@ -15,7 +15,8 @@ import { InputcreateComponent } from './inputcreate/inputcreate.component';
 
 import {HttpClientModule} from '@angular/common/http';
 import { RouterModule, Routes} from '@angular/router';
-import { ReactiveFormsModule } from '@angular/forms'
+import { ReactiveFormsModule } from '@angular/forms';
+import { ComentariosComponent } from './comentarios/comentarios.component'
 
 
 
@@ -32,6 +33,7 @@ const ROUTES: Routes = [
   { path: 'vercerveza/:id', component: VercervezaComponent },
   { path: 'vercerveza', component: VercervezaComponent },
   { path: '**', component: HomeComponent },
+  {path: 'comentarios', component: ComentariosComponent }, 
   
 ]
 
@@ -48,7 +50,8 @@ const ROUTES: Routes = [
     VercervezaComponent,
     TablaComponent,
     InputeditComponent,
-    InputcreateComponent
+    InputcreateComponent,
+    ComentariosComponent
   ],
   imports: [
     BrowserModule,

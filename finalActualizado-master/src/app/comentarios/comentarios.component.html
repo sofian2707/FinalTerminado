@@ -1,0 +1,30 @@
+<h3> Ya la probaste? </h3>
+
+
+<div class="fondo" *ngFor="let coments of comentarios">
+		<table>
+			<tr>
+				<b>{{coments.nombre}}</b>
+            </tr>
+		</table>
+	<div class="texto_mensaje">{{coments.comentario}}</div>
+</div>
+
+
+<form [formGroup]="formCreate" (ngSubmit)='formcoment();'>
+    <h4>Agrega un comentario</h4>
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" formControlName="nombre" aria-describedby="Nombre">
+      </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1"formControlName="email" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">No se compartira tu correo con nadie</div>
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" formControlName="comentario" rows="3"></textarea>
+      </div>
+    <button type="submit" class="btn btn-primary">Enviar comentario</button>
+  </form>
