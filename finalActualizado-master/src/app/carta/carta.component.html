@@ -1,0 +1,36 @@
+
+    <div class="jumbotron">
+        <section class="py-5 ">
+            <div class="row py-lg-5">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 style="text-align: center;"><strong>Nuestras cervezas</strong></h1>
+                <p class="lead " id="txt">Elaboramos una amplia gama de estilos para que elijas la cerveza justa para vos..</p>
+              </div>
+            </div>
+          </section>
+        
+          <div class="album">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-md-4 g-4 ">
+                <div class="col embed-responsive embed-responsive-1by1" *ngFor="let beer of beers" >
+                  <div class="card">
+                  <div>
+                    <img class="card-img-top embed-responsive-item"src={{beer.imagen}}/>
+                  </div>
+                    <div class="card-body ">
+                      <p class="card-text">{{beer.descripcion}}</p>
+                        <div>
+                          <button type="button" class="btn btn-sm btn-outline-secondary" (click)="ver(beer.id)" >Ver producto</button>
+                        </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  
+
+  
+ 

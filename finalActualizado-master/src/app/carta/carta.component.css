@@ -1,0 +1,47 @@
+.jumbotron{
+  margin-top: 2%;
+  background-image: url(	https://www.cervezaslavirgen.com/wp-content/uploads/2021/07/18-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+  .col{
+    max-width: 350px;
+    min-width: 300px;
+    
+  }
+  
+  .embed-responsive .card-img-top{
+    object-fit: cover;
+    height: 500px;
+  }
+  
+
+  .card{
+    background-color: rgba(238, 149, 71, 0.459);
+    background-size: cover;
+    object-fit: cover;
+
+  }
+
+  .btn{
+    background-color: rgba(189, 182, 180, 0.527);
+    margin-top: 10px;
+    float: center;
+    align-items: center;
+  }
+
+
+  .card-text{
+    float: center;
+    align-items: center;
+    margin: auto;
+    object-fit: cover;
+    font-size: 100%;
+
+   
+  }
+
+
+  
